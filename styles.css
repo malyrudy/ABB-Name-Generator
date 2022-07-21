@@ -10,25 +10,43 @@ main img {
     margin: 10px;
 }
 .container {
-    width: 250px;
+    width: 450px;
     margin: 2rem auto;
 }
 
 .btn {
     display: block;
-    padding: 10px;
+    padding: 20px 0;
     border: none;
     border-radius: 50px;
     background: red;
     color: white;
-    font-size: medium;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
 .newCandidate {
     list-style-type: none;
     text-align: center;
-    margin: 1rem;
-    font-size: large;
+    margin: 2rem;
+    font-size: 30px;
     font-weight: bold;
+   
+}
+
+.background {
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 30%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+}
+
+main {
+    z-index: 1000;
+    position: relative;
 }
