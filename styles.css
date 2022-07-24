@@ -5,13 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html {
-    overflow: hidden;
-}
-
-main img {
-    width: 100px;
-    margin: 10px;
+body {
+    background-image: url(/img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -21,15 +18,15 @@ main img {
 
 .btn {
     display: block;
-    padding: 20px 0;
+    padding: 15px 0;
     border: none;
     border-radius: 50px;
     background: red;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    margin-top: 40px;
 }
-
 
 .newCandidate {
     list-style-type: none;
@@ -37,34 +34,30 @@ main img {
     margin: 2rem;
     font-size: 30px;
     font-weight: bold;
-   
 }
 
-body {
-    display: flex;
-    justify-content: space-between;
+main {
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(203, 238, 7, 0);
+    width: 600px;
+    max-width: 600px;
+    height: 435px;
+    margin: 26vh auto;
+    background-color: white;
+    position: relative;
 }
 
-body img {
-    height: 100vh;
-    width: 690px;
-    opacity: 90%;
+.candidates {
+    padding-bottom: 30px;
+    background-color: white;
 }
 
 #logo {
     position: absolute;
-    height: 100px;
-    width: 100px;
-    left: 10px;
-    top: -25px;
-    opacity: 30%;
+    display: block;
+    height: 80px;
+    width: 80px;
+    right: 40px;
+    bottom: -10px;
 }
-
-/*.background-1 {
-    margin-right: 20px;
-}
-
-.background-2 {
-    margin-left: 20px;
-}
-*/
